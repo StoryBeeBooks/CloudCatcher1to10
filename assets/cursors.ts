@@ -1,0 +1,6 @@
+/**
+ * Base64 encoded 32x32 pixel dragon cursor.
+ * Using a data URI avoids issues with file paths and ensures the asset is always available.
+ * The hotspot for this cursor is (4, 8) - the tip of the dragon's nose.
+ */
+export const dragonCursor = `data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAIQSURBVFhH7ZfRSwNBFIb/F8W2WFrtYpAcBPEkgoOYg2CwL5A8eBC9CAfBIyge9eJBEPQg/gDRKx48iOAmiJcgAomiYKAo2Gq02M5mszP7MvM2NlGzmh40mC/czWb2ffNNvBkfMzg/9QGqTf8VqA6g0UCo77GqT++B3B5QaqAxYEBj/NcrM1A8oAJw9f4oAAQGgR0cHv7G/v7d6+svd2tra+vly5d/6urq+vPz85e7u7vfcAAYfAYgQGAQwMD+/p3t7e1HNTU1j2tra5/W1tZ/bW1t/1xcXDxOADCAUGBg4ODg4OHh4b29vbehoSH/fHx8HAYA2A1QAAgMHD58+PDs2bN/gYGBbzAYrA0NDV/v7u6+BAAYfQagAHA0NTR0tLW1fbGwsPCXl5f3DAwMvDw5OXm2tLR8k56e/g7AAdwE9gAsfX19j4eHx085OTm/5+fnf4eHh38MDAx8mZiY+JGamvrPAZiGAoCXfvxkZWV92tra+j0zM/M2AwPDNzEx8S09Pf09AOP/G4D9AlYBKK+vrz89PT39NTY29kZCQkJbVFT0DwC2/w9gHkDj8fjj1NTUHzs7O/8/Pj7+iI2N/Sw2Nvb3/Pz8ewAWoA1AEolE3ru7u//Nzc1PZWdn/9vb2//a2tqf09PTf8/Pz9/k5eU9DwBHAAgMvHnz5jsoKOg/m5qa/v39/b/Nzc1PUlJSftvb268kJCQ8B2AAcAGQyWQyqampk5KS8uzs7G9+fv7B/Pz8l5mZ+TE5OfklADsBKoCqqqqqubm534GBgb8hISEhISEh/zcYGADgPwG4AAAAABJRU5ErkJggg==`;
