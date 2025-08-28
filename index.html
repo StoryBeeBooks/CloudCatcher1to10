@@ -7,6 +7,9 @@
   </head>
   <body>
     <div id="root"></div>
-    <!-- Vite will inject the correct script during build -->
+    
+    <!-- THIS IS THE CRITICAL LINE THAT WAS MISSING -->
+    <script type="module" src="/index.tsx"></script>
+
   </body>
 </html>
